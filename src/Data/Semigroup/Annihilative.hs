@@ -31,7 +31,7 @@ class (Semigroup a)=> LeftAnnihilative a where
 {-^ Law:
 
 prop> \ x -> leftNihil '<>' x  ==  leftNihil
-prop> \ x -> seq leftNihil x == x
+prop> \ x -> 'seq' leftNihil x == x
 
 (The first law does not apply when @x@ is computationally bottom.)
 If you think of '<>' as multiplication and 'mempty' as one, then @leftNihil@ is zero.
