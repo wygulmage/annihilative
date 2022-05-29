@@ -11,7 +11,8 @@ homepage:       https://github.com/wygulmage/annihilative#readme
 bug-reports:    https://github.com/wygulmage/annihilative/issues
 author:         Keith Wygant
 copyright:      2022 Keith Wygant
-license:        0BSD
+-- 0BSD license:
+license:        OtherLicense
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
